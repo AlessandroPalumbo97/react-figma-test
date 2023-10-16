@@ -1,0 +1,53 @@
+.cardDescription,
+.cardTitle {
+  align-self: stretch;
+  position: relative;
+}
+.cardTitle {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+}
+.cardDescription {
+  font-family: var(--font-montserrat);
+}
+.btn {
+  align-self: stretch;
+  cursor: pointer;
+}
+.cardBody {
+  position: absolute;
+  width: 83.33%;
+  right: 8.33%;
+  bottom: 30px;
+  left: 8.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 21px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.cardImgIcon {
+  position: absolute;
+  height: calc(100% - 200px);
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 200px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardtest {
+  background-color: #fff;
+  width: 360px;
+  height: 360px;
+  overflow: hidden;
+}
