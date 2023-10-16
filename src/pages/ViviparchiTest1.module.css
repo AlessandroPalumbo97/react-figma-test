@@ -1,0 +1,67 @@
+.myeduViviparchi {
+  background: linear-gradient(178.16deg, #a1de1f, rgba(195, 222, 31, 0.3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subtitle,
+.title {
+  align-self: stretch;
+  position: relative;
+  font-weight: 900;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: #aaa;
+}
+.text {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.hero,
+.imgIcon,
+.text {
+  align-self: stretch;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.imgIcon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 456px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.content {
+  position: absolute;
+  width: 58.75%;
+  top: calc(50% - 310px);
+  right: 20.63%;
+  left: 20.63%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+.viviparchiTest1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 36px;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

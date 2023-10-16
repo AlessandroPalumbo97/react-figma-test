@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-yellowgreen: #a1de1f;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-41xl: 60px;
+}
