@@ -1,4 +1,4 @@
-import { Button, IconButton } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import styles from "./ViviparchiTest1.module.css";
 
@@ -9,7 +9,7 @@ const ViviparchiTest1 = () => {
         <div className={styles.hero}>
           <div className={styles.text}>
             <div className={styles.title}>
-              <span>{`Scopri la nuova campagna `}</span>
+              <span>Scopri la nuova campagna </span>
               <span className={styles.myeduViviparchi}>MyEdu Viviparchi</span>
               <span> dedicata alle iniziative Green</span>
             </div>
@@ -24,7 +24,7 @@ const ViviparchiTest1 = () => {
         </div>
         <img className={styles.imgIcon} alt="" src="/img@2x.png" />
       </div>
-      <Navbar bgColor="#4E9895" />
+      <Navbar />
     </div>
   );
 };

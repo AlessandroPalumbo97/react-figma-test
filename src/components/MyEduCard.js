@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { Button } from "@mui/material";
-import styles from "./Frame 2.module.css";
+import styles from "./MyEduCard.module.css";
 
 const MyEduCard = () => {
   const onBtnClick = useCallback(() => {
@@ -18,7 +18,6 @@ const MyEduCard = () => {
         <Button
           className={styles.btn}
           color="primary"
-          target="_blank"
           variant="contained"
           onClick={onBtnClick}
         >

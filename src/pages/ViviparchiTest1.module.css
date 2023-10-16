@@ -1,5 +1,5 @@
 .myeduViviparchi {
-  background: linear-gradient(178.16deg, #a1de1f, rgba(195, 222, 31, 0.3));
+  background: linear-gradient(178.16deg, var(--color--green), rgba(17, 152, 149, .3));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
